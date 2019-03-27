@@ -21,8 +21,12 @@ En sortie: [
 
  */
 
-function getStringsLength(strings) {
-}
+function getStringsLength(food) {
+  return food.map (function(foods) {
+    return foods + ' contains ' + foods.length + ' characters'
+  })
+};
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1
